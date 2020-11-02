@@ -21,7 +21,7 @@
         },
         "CONFIGV2RAY": {
             "description": "自定义网络地址读取配置运行V2RAY，不熟悉V2RAY配置的请勿修改",
-            "value": "https://github.com/dongdongmao/kuhero/blob/ddm-test/etc/v2ray.json"
+            "value": "https://raw.githubusercontent.com/ddm/kuhero/master/etc/v2ray.json"
         },
         "EnableBROOK": {
             "description": "默认关闭BROOK，修改为true时开启",
