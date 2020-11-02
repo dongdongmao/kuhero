@@ -2,13 +2,13 @@
   
 * 本项目可在heroku上选择性的部署v2ray(trojan-go)，shadowsocks，gost，brook等，方便客户端各取所需！  
   
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/dongdongmao/kuhero)  
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/mixool/kuhero)  
   
 ### 服务端
 点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上app的名字、选择节点、按需修改部分参数和AUUID后点击下面deploy创建app即可开始部署  
 如出现错误，可以多尝试几次，待部署完成后页面底部会显示Your app was successfully deployed  
   * 点击Manage App可在Settings下的Config Vars项**查看和重新设置参数**  
-  * 点击View跳转[欢迎页面](https://github.com/dongdongmao/kuhero/blob/master/etc/CADDYIndexPage.md)域名即为heroku分配的项目域名，格式为`appname.herokuapp.com`，客户端会用到此域名  
+  * 点击View跳转[欢迎页面](https://github.com/mixool/kuhero/blob/master/etc/CADDYIndexPage.md)域名即为heroku分配的项目域名，格式为`appname.herokuapp.com`，客户端会用到此域名  
   * 默认协议密码为$UUID，WS路径为$UUID-[vless|vmess|trojan|ss|gost|brook]格式
   
 ### 客户端
@@ -115,4 +115,4 @@ addEventListener(
 ```
 </details>
   
-> [更多来自热心网友PR的使用教程](https://github.com/dongdongmao/kuhero/tree/master/tutorial)
+> [更多来自热心网友PR的使用教程](https://github.com/mixool/kuhero/tree/master/tutorial)
